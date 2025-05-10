@@ -1,0 +1,193 @@
+@media only screen and (min-width: 0em) {
+    #sbs {
+        padding: var(--sectionPadding);
+        position: relative;
+    }
+
+    #sbs .cs-container {
+        width: 100%;
+        max-width: 80rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 2.5rem;
+    }
+
+    #sbs .cs-left {
+        font-size: min(2.31vw, .7em);
+        width: 39.4375em;
+        height: 39.75em;
+        position: relative;
+    }
+
+    #sbs .cs-picture {
+        border-radius: 1.5em;
+        overflow: hidden;
+        position: absolute;
+        display: block;
+    }
+
+    #sbs .cs-picture img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #sbs .cs-picture1 {
+        width: 32.625em;
+        height: 91.3522013%;
+        left: 0;
+        top: 0;
+    }
+
+    #sbs .cs-picture2 {
+        width: 25.875em;
+        height: 59.1194969%;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+        border: clamp(0.375em, 1.5vw, 0.75em) solid #fff;
+        right: 0;
+        bottom: 0;
+    }
+
+    #sbs .cs-right {
+        margin: auto;
+        max-width: 33.875rem;
+    }
+
+    #sbs .cs-topper {
+        text-align: left;
+    }
+
+    #sbs .cs-title {
+        text-align: left;
+    }
+
+    #sbs .cs-text {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    #sbs .cs-h3 {
+        font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
+        line-height: 1.2em;
+        max-width: 32.625rem;
+        margin: 0;
+        margin-bottom: clamp(1rem, 3vw, 1.5rem);
+        color: var(--headerColor);
+    }
+
+    #sbs .cs-flex-group {
+        padding: clamp(1rem, 3vw, 2rem);
+        background-color: #000;
+        border-radius: 1rem;
+        position: relative;
+    }
+
+    #sbs .cs-flex-p {
+        font-size: clamp(0.875rem, 1.5vw, 1rem);
+        line-height: 1.5em;
+        margin: 0 0 1rem;
+        color: #fff;
+    }
+
+    #sbs .cs-name {
+        font-size: 1rem;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 0 0.25rem;
+        color: var(--primary);
+        display: block;
+    }
+
+    #sbs .cs-job {
+        font-size: 0.875rem;
+        line-height: 1.5em;
+        color: #fff;
+        opacity: 0.7;
+        display: block;
+    }
+
+    #sbs .cs-quote-icon {
+        width: clamp(3.75rem, 10vw, 8.5rem);
+        height: auto;
+        position: absolute;
+        bottom: -1px;
+        right: clamp(1rem, 4vw, 2rem);
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    #sbs .cs-container {
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 3.25rem;
+    }
+
+    #sbs .cs-left {
+        font-size: min(1.2vw, 1em);
+        flex: none;
+        height: auto;
+    }
+
+    #sbs .cs-right {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 0em) {
+    body.dark-mode #sbs:before {
+        opacity: 0.2;
+    }
+
+    body.dark-mode #sbs .cs-left:before, body.dark-mode #sbs .cs-left:after {
+        background: var(--accent);
+    }
+
+    body.dark-mode #sbs .cs-picture2 {
+        background-color: var(--dark);
+        border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
+    }
+
+    body.dark-mode #sbs .cs-topper {
+        color: var(--primaryLight);
+    }
+
+    body.dark-mode #sbs .cs-title, body.dark-mode #sbs .cs-text, body.dark-mode #sbs .cs-h3, body.dark-mode #sbs .cs-flex-p, body.dark-mode #sbs .cs-name {
+        color: var(--bodyTextColorWhite);
+    }
+
+    body.dark-mode #sbs .cs-flex-group {
+        background-color: var(--accent);
+    }
+
+    body.dark-mode #sbs .cs-job {
+        color: var(--bodyTextColorWhite);
+        opacity: 0.8;
+    }
+
+    body.dark-mode #sbs .cs-quote-icon {
+        opacity: 0.2;
+    }
+}
+
+@media only screen and (min-width: 0em) {
+    #cta {
+        padding-top: 0;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 0rem) {
+    body.dark-mode #cta:before {
+        opacity: 0.2;
+    }
+}
