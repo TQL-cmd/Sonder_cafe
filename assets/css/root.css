@@ -905,7 +905,8 @@
     }
 
     #cs-navigation .cs-li-link.cs-active {
-        color: var(--accessible2);
+        color: #AA336A;
+        /* color: var(--accessible2); */
     }
 }
 
