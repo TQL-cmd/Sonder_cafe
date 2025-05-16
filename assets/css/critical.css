@@ -58,11 +58,10 @@
         z-index: -1;
         position: absolute;
         top: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 0;
+        width: 100%;
         background-color: var(--secondary);
         height: 80%;
-        width: 100vw;
     }
 
     #hero-1203 .cs-picture {
@@ -174,14 +173,13 @@
     }
 }
 
-@media only screen and (min-width: 112.5rem) {
+@media only screen and (min-width: 120rem) {
     #hero-1203 .cs-bg {
-        left: 50%;
-        transform: none;
-        margin-left: -50rem;
         height: 85%;
     }
+}
 
+@media only screen and (min-width: 219.5rem) {
     #hero-1203 .cs-side {
         position: absolute;
         top: 0;
