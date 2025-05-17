@@ -167,9 +167,21 @@
         font-weight: 400;
         src: url("../fonts/lilita-one-v15-latin-regular.woff2") format("woff2");
     }
-
-    /* Sử dụng Google Fonts cho Maven Pro */
-    
+ 
+    @font-face {
+        font-style: normal;
+        font-family: "Maven Pro";
+        font-weight: 400;
+        font-display: swap;
+        src: url("/assets/fonts/maven-pro-v33-latin-regular.woff2") format("woff2");
+    }
+    @font-face {
+        font-style: normal;
+        font-family: "Maven Pro";
+        font-weight: 700;
+        font-display: swap;
+        src: url("/assets/fonts/maven-pro-vietnamese-700-normal.woff2") format("woff2");
+    }
     
 }
 
